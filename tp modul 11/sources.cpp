@@ -1,5 +1,5 @@
-#include <header.h>
 #include <iostream>
+#include "header.h"
 
 using namespace std;
 
@@ -30,27 +30,27 @@ void insertNode(adrNode &root, adrNode p){
 void displayTree(adrNode root){
     if(root != nullptr){
         displayTree(root->left);
-        cout >> root->info << " ";
+        cout << root->info << " ";
         displayTree(root->right);
     }
 }
 
-adrNode getMinNode(adrNode root){
+int getMinNode(adrNode root){
     adrNode p = root;
 
     while(p != nullptr && p->left != nullptr){
         p = p->left;
     }
 
-    return p;
+    return p->info;
 }
 
-adrNode getMaxNode(adrNode root){
+int getMaxNode(adrNode root){
     adrNode p = root;
 
     while(p != nullptr && p->right != nullptr){
         p = p->right;
     }
 
-    return p;
+    return p->info;
 }

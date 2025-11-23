@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1763914758 source:d:\semester 3\struktur data prak\tp modul 11\tp modul 11\main.cpp
+	<iostream>
+	"header.h"
+
+1763915032 d:\semester 3\struktur data prak\tp modul 11\tp modul 11\header.h
+
+1763914921 source:d:\semester 3\struktur data prak\tp modul 11\tp modul 11\sources.cpp
+	<iostream>
+	"header.h"
+
