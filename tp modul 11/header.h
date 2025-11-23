@@ -12,7 +12,9 @@ struct node{
 };
 
 void createTree(adrNode &root);
+adrNode createNode(infotype x);
 void insertNode(adrNode &root, adrNode p);
+void displayTree(adrNode root);
 adrNode getMinNode(adrNode root);
 adrNode getMaxNode(adrNode root);
 
